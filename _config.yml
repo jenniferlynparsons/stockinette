@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            stockinette
+tagline:          A simple stitch counter and tracker
+url:              http://jenniferlynparsons.github.io/stockinette
+
+author:
+  name:           Jennifer Lyn Parsons
+  url:            http://jenniferlynparsons.net
+
+paginate:         1
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/jenniferlynparsons/stockinette
