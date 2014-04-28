@@ -1,0 +1,258 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   .left-side{float:left;}
+
+   .right-side{float:right;}
+
+
+   body > div{
+    width:40rem;
+    margin:0 auto;
+    padding-top:20%;
+    background:#444;
+}
+
+#tool-wrapper{
+    margin:0 auto;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+#tool{
+    background: #940C0C;
+    height:8rem;
+    width:20rem;
+    margin:0 auto;
+}
+.control{
+    background:#fff;
+    width:4rem;
+    height:8rem;
+}
+#left-controls{margin-right:1.4rem;}
+#right-controls{}
+
+.increase{height: 4rem;width: 100%; background: #ededed;display: block;}
+.increase:hover{background: #ddd;}
+
+.decrease{height: 4rem;width: 100%;display: block;}
+
+#display{width:9rem;}
+.counter{
+    background: #fff;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    margin-top: 16%;
+    width: 1rem;
+}
+#left-counter{margin-right: 1rem;}
+#right-counter{}
+
+#main-controls{
+    margin:0 auto;
+    width:9rem;
+    padding:2rem 0 4rem;
+}
+#reset{margin-right: 1.2rem;}
+#save{}
+
+#projects{}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+   @media only screen and (min-width: 35em) {
+
+   }
+
+   @media print,
+   (-o-min-device-pixel-ratio: 5/4),
+   (-webkit-min-device-pixel-ratio: 1.25),
+   (min-resolution: 120dpi) {
+
+   }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+   .ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+   @media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
